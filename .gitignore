@@ -1,1 +1,3 @@
-tools/nexus/build.sh
+*build.sh
+*.iml
+.idea
