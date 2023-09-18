@@ -74,9 +74,9 @@ if [ $realLength -gt 0 ]; then
   if $DELETE
    then
     logInfo "To remove these components, please authenticate to Nexus"
-    printf "Please enter your Nexus username: "
+    printf "Please enter your Nexus username : "
     read USER
-    printf>&2 "Please enter your Nexus username:"
+    printf>&2 "Please enter your Nexus password :"
     IFS= read -sr PASSWORD
     echo ""
 
