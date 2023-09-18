@@ -24,4 +24,4 @@ docker run -it --rm --name delete-nexus-component \
 --env EXTRA_SEARCH=$EXTRA_SEARCH \
 --env DELETE=$DELETE \
 --env DRY_RUN=$DRY_RUN \
-xaadim:tools/delete-nexus-component:latest
+xaadim/delete-nexus-component:latest
